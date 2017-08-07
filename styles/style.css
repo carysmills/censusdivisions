@@ -1,0 +1,58 @@
+ body {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 13px;
+ }
+
+ path {
+   stroke-width:0.5px;
+   stroke: #d9d9d9;
+   cursor: pointer;
+   transition: fill 0.5s;
+ }
+
+ /*needed for positioning d3 tooltip with JS */
+ div.tooltip {  
+   position: absolute;     
+   width: 150px;  
+   height: inherit;          
+   padding: 5px;       
+   background: rgba(0,0,0,0.6);
+   border-radius: 3px;     
+   pointer-events: none;
+   font-size: 12px;
+   color: #fff;    
+   box-shadow: 3px 3px 3px #d3d3d3;
+ }
+
+ div.legend {
+   float: left;
+   font-size: 12px;
+ }
+
+ .legendcontainer {
+     height: 30px;
+ }
+
+ .legendcontainer span {
+   vertical-align: -webkit-baseline-middle;
+   margin-left: 3px;
+ }
+
+ .legendpiece {
+   width: 20px;
+   float: left;
+   clear: both;
+   height: inherit;
+}
+
+ strong.title {
+   text-transform: uppercase;
+ }
+
+ form {
+   clear: both;
+ }
+
+ #wrapper {
+   float: left;
+ }
